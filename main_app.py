@@ -1,7 +1,6 @@
 import streamlit as st # type: ignore
 from PIL import Image # type: ignore
 import pandas as pd # type: ignore
-import matplotlib.pyplot as plt # type: ignore
 import datetime
 
 st.page_link("main_app.py", label="Home", icon="🏠")
