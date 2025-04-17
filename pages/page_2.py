@@ -13,7 +13,7 @@ st.caption("都道府県や市町村を入力して、該当する医師情報�
 query = st.text_input("都道府県または市町村を入力してください")
 
 # CSVファイルを読み込む
-df = pd.read_csv("C:/Users/mihos/OneDrive/デスクトップ/kanacare/supu_up/pages/dermatology_specialists.csv")
+df = pd.read_csv("pages/dermatology_specialists.csv")
 
 # Geopyのジオロケーター設定
 geolocator = Nominatim(user_agent="kanacare_geopy")
