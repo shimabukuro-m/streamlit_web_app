@@ -1,13 +1,25 @@
 import streamlit as st # type: ignore
 
-st.page_link("main_app.py", label="Home", icon="🏠")
+col1, col2, col3, col4, col5, col6 = st.columns(6)
+with col1:
+    st.page_link("main_app.py", label="Home", icon="🏠")
+with col2:
+    st.page_link("pages/page_1.py", label="diary", icon="1⃣")
+with col3:
+    st.page_link("pages/page_2.py", label="hospitals", icon="2⃣")
+with col4:
+    st.page_link("pages/page_3.py", label="trivia", icon="3⃣")
+with col5:
+    st.page_link("pages/page_4.py", label="medicine", icon="4⃣")
+with col6:
+    st.page_link("pages/page_5.py", label="goods", icon="5⃣")
 
 import streamlit as st
 
 # あせもとは？
-st.title("あせも（汗疹）とは？")
+st.title("あせもの豆知識")
 st.subheader("""
-あせもは、汗の通り道である **汗管** が詰まることで炎症を起こし、皮膚に発疹やかゆみが生じる皮膚疾患です。医学的には **「汗疹（かんしん）」** と呼ばれます。
+あせもとは、汗の通り道である **汗管** が詰まることで炎症を起こし、皮膚に発疹やかゆみが生じる皮膚疾患です。医学的には **「汗疹（かんしん）」** と呼ばれます。
 """)
 
 # あせもの種類
