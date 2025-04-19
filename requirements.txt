@@ -3,3 +3,9 @@ pandas
 streamlit
 geopy
 matplotlib
+datetime
+io
+sqlite3
+os
+openai
+st_audiorec
