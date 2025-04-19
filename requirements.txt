@@ -3,9 +3,5 @@ pandas
 streamlit
 geopy
 matplotlib
-datetime
-io
-sqlite3
-os
 openai
-st_audiorec
+git+https://github.com/<shimabukuro-m>/st_audiorec.git
